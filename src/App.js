@@ -2,6 +2,7 @@ import './App.css';
 import freeCodeCampLogo from './images/freecodecamp-logo.png'
 import Boton from './components/Boton';
 import Pantalla from './components/Pantalla';
+import BotonClear from './components/BotonClear';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Boton>/</Boton>
         </div>
         <div className='fila'></div>
+          <BotonClear>Clear</BotonClear>
       </div>
     </div>
   );
