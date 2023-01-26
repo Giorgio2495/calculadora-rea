@@ -1,12 +1,12 @@
 import React from 'react';
-import '../stylesheets/Pantalla.css'
+import '../stylesheets/Pantalla.css';
 
 const Pantalla = ({ input }) => {
   return (
     <div className='input'>
-      {input}
+       {input}
     </div>
   )
-};
+}
 
 export default Pantalla;
